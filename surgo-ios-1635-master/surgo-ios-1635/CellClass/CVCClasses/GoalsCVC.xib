@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="GoalsCVC" customModule="surgo_ios_1635" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="77"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="280" height="77"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bt6-Q1-xfr" customClass="GradientView" customModule="surgo_ios_1635" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="6" width="270" height="65"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kcq-6f-D1j">
+                                <rect key="frame" x="8" y="25.5" width="254" height="14"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Kcq-6f-D1j" firstAttribute="leading" secondItem="bt6-Q1-xfr" secondAttribute="leading" constant="8" id="C5e-SJ-L8l"/>
+                            <constraint firstItem="Kcq-6f-D1j" firstAttribute="centerY" secondItem="bt6-Q1-xfr" secondAttribute="centerY" id="hrK-p4-3YZ"/>
+                            <constraint firstAttribute="trailing" secondItem="Kcq-6f-D1j" secondAttribute="trailing" constant="8" id="pYf-dz-dnY"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                <color key="value" red="0.94551116229999999" green="0.94564694169999997" blue="0.94548147920000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                <color key="value" red="0.94551116229999999" green="0.94564694169999997" blue="0.94548147920000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="gradientCornerRadius">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCc-66-uR8">
+                        <rect key="frame" x="247" y="0.0" width="18" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="18" id="NV5-D6-2RX"/>
+                            <constraint firstAttribute="height" constant="18" id="OtZ-AB-d56"/>
+                        </constraints>
+                        <state key="normal" image="ic_cross"/>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="bt6-Q1-xfr" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="6" id="35o-UW-foe"/>
+                <constraint firstItem="GCc-66-uR8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Jkg-zZ-Ahp"/>
+                <constraint firstAttribute="trailing" secondItem="GCc-66-uR8" secondAttribute="trailing" constant="15" id="L8Z-Pg-Qvt"/>
+                <constraint firstAttribute="trailing" secondItem="bt6-Q1-xfr" secondAttribute="trailing" constant="10" id="aB3-ne-FgN"/>
+                <constraint firstItem="bt6-Q1-xfr" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="k7L-US-2ni"/>
+                <constraint firstAttribute="bottom" secondItem="bt6-Q1-xfr" secondAttribute="bottom" constant="6" id="u8r-Sw-lrz"/>
+            </constraints>
+            <size key="customSize" width="280" height="77"/>
+            <connections>
+                <outlet property="btnCross" destination="GCc-66-uR8" id="wfU-aQ-oKL"/>
+                <outlet property="lblTitle" destination="Kcq-6f-D1j" id="8Yn-ml-qI9"/>
+                <outlet property="vwBackground" destination="bt6-Q1-xfr" id="FgS-TD-bwf"/>
+            </connections>
+            <point key="canvasLocation" x="204.34782608695653" y="74.665178571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ic_cross" width="21.5" height="21.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

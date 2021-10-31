@@ -1,0 +1,1111 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		039AA381CE0A8F870198B44C /* Pods_surgo_ios_1635.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52FDC9402937C69E1FCDCF6 /* Pods_surgo_ios_1635.framework */; };
+		2A1DC8E62724468E00EE84CE /* AddTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DC8E42724468E00EE84CE /* AddTaskVC.swift */; };
+		2A1DC8E72724468E00EE84CE /* EditTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DC8E52724468E00EE84CE /* EditTaskVC.swift */; };
+		2A244E482705F66F00954088 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A244E472705F66F00954088 /* HoshiTextField.swift */; };
+		2A244E4D2705F74B00954088 /* TextFieldEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A244E4C2705F74B00954088 /* TextFieldEffects.swift */; };
+		2A2B3E4E271D9F530024BE6B /* AddPostsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2B3E4D271D9F520024BE6B /* AddPostsVM.swift */; };
+		2A33C30D270C3508004F602B /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A33C30C270C3508004F602B /* ForgotPasswordVC.swift */; };
+		2A33C328270C5FB2004F602B /* CalenderEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A33C327270C5FB2004F602B /* CalenderEventVC.swift */; };
+		2A33C32D270C603A004F602B /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A33C32C270C603A004F602B /* ChangePasswordVC.swift */; };
+		2A45CC9C27204C4800E8C6C1 /* MyProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A45CC9B27204C3A00E8C6C1 /* MyProfileVM.swift */; };
+		2A4710FD27267E8C009A54F9 /* EditTaskVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4710FC27267E8C009A54F9 /* EditTaskVM.swift */; };
+		2A60BC252706DD8C00408725 /* ViewExtenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60BC222706DD8C00408725 /* ViewExtenstions.swift */; };
+		2A60BC262706DD8C00408725 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60BC232706DD8C00408725 /* Extensions.swift */; };
+		2A60BC272706DD8C00408725 /* AlertMessagesConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60BC242706DD8C00408725 /* AlertMessagesConstant.swift */; };
+		2A60BC2F2706DEBF00408725 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60BC2E2706DEBF00408725 /* Constants.swift */; };
+		2A60BC362706E0D100408725 /* EnterDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60BC332706E0D100408725 /* EnterDetailVC.swift */; };
+		2A60BC372706E0D100408725 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60BC342706E0D100408725 /* LoginVC.swift */; };
+		2A60BC382706E0D100408725 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60BC352706E0D100408725 /* SignUpVC.swift */; };
+		2A60BC412706E80500408725 /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60BC3F2706E80500408725 /* Proxy.swift */; };
+		2A60BC422706E80500408725 /* RootControllerProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60BC402706E80500408725 /* RootControllerProxy.swift */; };
+		2A6AA701271ECD1900DBBC01 /* PostsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6AA700271ECD1500DBBC01 /* PostsVM.swift */; };
+		2A6AA75A271ED98000DBBC01 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6AA759271ED97F00DBBC01 /* PostModel.swift */; };
+		2AFAA7A9270437F40048B872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFAA7A8270437F40048B872 /* AppDelegate.swift */; };
+		2AFAA7AB270437F40048B872 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFAA7AA270437F40048B872 /* SceneDelegate.swift */; };
+		2AFAA7B0270437F40048B872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AFAA7AE270437F40048B872 /* Main.storyboard */; };
+		2AFAA7B2270437F40048B872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AFAA7B1270437F40048B872 /* Assets.xcassets */; };
+		2AFAA7B5270437F40048B872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AFAA7B3270437F40048B872 /* LaunchScreen.storyboard */; };
+		2AFAA7C0270437F40048B872 /* surgo_ios_1635Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFAA7BF270437F40048B872 /* surgo_ios_1635Tests.swift */; };
+		2AFAA7CB270437F40048B872 /* surgo_ios_1635UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AFAA7CA270437F40048B872 /* surgo_ios_1635UITests.swift */; };
+		42830EE1C4B21E3C43A66290 /* Pods_surgo_ios_1635_surgo_ios_1635UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05634AAD6837840828D857A5 /* Pods_surgo_ios_1635_surgo_ios_1635UITests.framework */; };
+		733C85E4270D7EBC00E9211F /* ACFloatingTextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733C85E3270D7EBB00E9211F /* ACFloatingTextfield.swift */; };
+		73B70C3E2727D1A00071C163 /* TaskListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B70C3D2727D1A00071C163 /* TaskListTVC.swift */; };
+		7B26A821270FFFDF005338E3 /* FriendRequestTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B26A81F270FFFDE005338E3 /* FriendRequestTVC.xib */; };
+		7B26A822270FFFDF005338E3 /* FriendRequestTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B26A820270FFFDE005338E3 /* FriendRequestTVC.swift */; };
+		7B26A82727100025005338E3 /* UserProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B26A82627100025005338E3 /* UserProfileVC.swift */; };
+		7B26A82C271000E1005338E3 /* RequestListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B26A82B271000E1005338E3 /* RequestListVC.swift */; };
+		7B26A831271007F6005338E3 /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B26A830271007F6005338E3 /* MyProfileVC.swift */; };
+		7B26A83627101003005338E3 /* MainTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B26A83527101003005338E3 /* MainTBC.swift */; };
+		7B26A84427101C66005338E3 /* SettingsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B26A84227101C65005338E3 /* SettingsTVC.swift */; };
+		7B26A84527101C66005338E3 /* SettingsTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B26A84327101C65005338E3 /* SettingsTVC.xib */; };
+		7B26A84A27102463005338E3 /* MyFriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B26A84927102463005338E3 /* MyFriendsVC.swift */; };
+		7B26A84F271040FF005338E3 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B26A84E271040FF005338E3 /* EditProfileVC.swift */; };
+		7B33C41A270EC2BB001CCD5B /* TrackProgressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33C419270EC2BB001CCD5B /* TrackProgressVC.swift */; };
+		7B33C41F270EC5C2001CCD5B /* PostsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33C41E270EC5C2001CCD5B /* PostsVC.swift */; };
+		7B33C425270EC619001CCD5B /* PostTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33C423270EC619001CCD5B /* PostTVC.swift */; };
+		7B33C426270EC619001CCD5B /* PostTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B33C424270EC619001CCD5B /* PostTVC.xib */; };
+		7B33C42B270ECE8C001CCD5B /* AddPostsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B33C42A270ECE8C001CCD5B /* AddPostsVC.swift */; };
+		BA429E9E2716999600F5C1B0 /* UserProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA429E9D2716999600F5C1B0 /* UserProfileVM.swift */; };
+		BA429EA1271699FE00F5C1B0 /* MyFriendTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA429E9F271699FE00F5C1B0 /* MyFriendTVC.swift */; };
+		BA429EA2271699FE00F5C1B0 /* MyFriendTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA429EA0271699FE00F5C1B0 /* MyFriendTVC.xib */; };
+		BA429EA42717028800F5C1B0 /* RequestListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA429EA32717028700F5C1B0 /* RequestListVM.swift */; };
+		BA65036E2713FB6900A3CC9A /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65036D2713FB6900A3CC9A /* UserDetails.swift */; };
+		BA6503722714000C00A3CC9A /* GoalsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6503702714000C00A3CC9A /* GoalsCVC.swift */; };
+		BA6503732714000C00A3CC9A /* GoalsCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6503712714000C00A3CC9A /* GoalsCVC.xib */; };
+		BA6503752714057400A3CC9A /* SetGoalsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6503742714057400A3CC9A /* SetGoalsVM.swift */; };
+		BA65037727141C7700A3CC9A /* GoalsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65037627141C7600A3CC9A /* GoalsModel.swift */; };
+		BA6503792714305E00A3CC9A /* SetPassionVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6503782714305E00A3CC9A /* SetPassionVM.swift */; };
+		BA65037B271433FC00A3CC9A /* SetSubPassionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65037A271433FC00A3CC9A /* SetSubPassionVC.swift */; };
+		BA65037D2714341300A3CC9A /* SetSubPassionVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65037C2714341300A3CC9A /* SetSubPassionVM.swift */; };
+		BA65037F27143A0900A3CC9A /* CalenderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA65037E27143A0900A3CC9A /* CalenderVC.swift */; };
+		BA6503832714629A00A3CC9A /* EditProfileVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6503822714629A00A3CC9A /* EditProfileVM.swift */; };
+		BA6503852714752600A3CC9A /* ForgotPasswordVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6503842714752600A3CC9A /* ForgotPasswordVM.swift */; };
+		BA650387271479AC00A3CC9A /* ChangePasswordVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA650386271479AC00A3CC9A /* ChangePasswordVM.swift */; };
+		BA6A26452717F82A00016814 /* MyFriendsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6A26442717F82900016814 /* MyFriendsVM.swift */; };
+		BADC35742715BFA800BECBC7 /* SearchVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADC35732715BFA800BECBC7 /* SearchVM.swift */; };
+		BADD328B2726F1DC0088E615 /* AddTaskVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADD328A2726F1DB0088E615 /* AddTaskVM.swift */; };
+		BADD328D2726F20D0088E615 /* AddSubTaskTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADD328C2726F20D0088E615 /* AddSubTaskTVC.swift */; };
+		BADD328F2726F2400088E615 /* CalenderVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADD328E2726F2400088E615 /* CalenderVM.swift */; };
+		BADD32912726F4EC0088E615 /* TaskListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADD32902726F4EC0088E615 /* TaskListModel.swift */; };
+		BAE12FD0270EF896007457EB /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE12FCF270EF896007457EB /* SplashVC.swift */; };
+		BAE12FD2270EFEA3007457EB /* SignUpVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE12FD1270EFEA3007457EB /* SignUpVM.swift */; };
+		BAE12FD4270EFF74007457EB /* RequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE12FD3270EFF74007457EB /* RequestModel.swift */; };
+		BAE12FD6270F0172007457EB /* ASToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE12FD5270F0171007457EB /* ASToast.swift */; };
+		BAE12FD8270F066E007457EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BAE12FD7270F066E007457EB /* GoogleService-Info.plist */; };
+		BAE12FDA270F191D007457EB /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE12FD9270F191D007457EB /* LoginVM.swift */; };
+		BAE12FDC270F231D007457EB /* EnterDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE12FDB270F231D007457EB /* EnterDetailVM.swift */; };
+		BAE12FDE270F26B1007457EB /* DataBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE12FDD270F26B1007457EB /* DataBaseHelper.swift */; };
+		BAE12FE0270F277E007457EB /* GalleryCameraImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE12FDF270F277E007457EB /* GalleryCameraImage.swift */; };
+		BAE12FE2270F316F007457EB /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE12FE1270F316F007457EB /* SearchVC.swift */; };
+		BAE12FE5270F318E007457EB /* SearchListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE12FE3270F318E007457EB /* SearchListTVC.swift */; };
+		BAE12FE6270F318E007457EB /* CategorySelectionMenuTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE12FE4270F318E007457EB /* CategorySelectionMenuTVC.swift */; };
+		BAEAE4BB2713F6B000FE0EF7 /* SetGoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEAE4B92713F6B000FE0EF7 /* SetGoalsVC.swift */; };
+		BAEAE4BC2713F6B000FE0EF7 /* SetPassionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEAE4BA2713F6B000FE0EF7 /* SetPassionVC.swift */; };
+		F1993655865E22550BC04CCD /* Pods_surgo_ios_1635Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1FD2F2FB9F839E9C0AB877 /* Pods_surgo_ios_1635Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AFAA7BC270437F40048B872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AFAA79D270437F40048B872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AFAA7A4270437F40048B872;
+			remoteInfo = "surgo-ios-1635";
+		};
+		2AFAA7C7270437F40048B872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AFAA79D270437F40048B872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AFAA7A4270437F40048B872;
+			remoteInfo = "surgo-ios-1635";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047D6084256A8204D1FD27FD /* Pods-surgo-ios-1635.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-surgo-ios-1635.release.xcconfig"; path = "Target Support Files/Pods-surgo-ios-1635/Pods-surgo-ios-1635.release.xcconfig"; sourceTree = "<group>"; };
+		05634AAD6837840828D857A5 /* Pods_surgo_ios_1635_surgo_ios_1635UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_surgo_ios_1635_surgo_ios_1635UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		134B8F3936870D7F9E54D7AB /* Pods-surgo-ios-1635.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-surgo-ios-1635.debug.xcconfig"; path = "Target Support Files/Pods-surgo-ios-1635/Pods-surgo-ios-1635.debug.xcconfig"; sourceTree = "<group>"; };
+		214AEC82E19ED16D122F26D8 /* Pods-surgo-ios-1635Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-surgo-ios-1635Tests.release.xcconfig"; path = "Target Support Files/Pods-surgo-ios-1635Tests/Pods-surgo-ios-1635Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2A1DC8E42724468E00EE84CE /* AddTaskVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskVC.swift; sourceTree = "<group>"; };
+		2A1DC8E52724468E00EE84CE /* EditTaskVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTaskVC.swift; sourceTree = "<group>"; };
+		2A244E472705F66F00954088 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
+		2A244E4C2705F74B00954088 /* TextFieldEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldEffects.swift; sourceTree = "<group>"; };
+		2A2B3E4D271D9F520024BE6B /* AddPostsVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostsVM.swift; sourceTree = "<group>"; };
+		2A33C30C270C3508004F602B /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		2A33C327270C5FB2004F602B /* CalenderEventVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderEventVC.swift; sourceTree = "<group>"; };
+		2A33C32C270C603A004F602B /* ChangePasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		2A45CC9B27204C3A00E8C6C1 /* MyProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVM.swift; sourceTree = "<group>"; };
+		2A4710FC27267E8C009A54F9 /* EditTaskVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskVM.swift; sourceTree = "<group>"; };
+		2A60BC222706DD8C00408725 /* ViewExtenstions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtenstions.swift; sourceTree = "<group>"; };
+		2A60BC232706DD8C00408725 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2A60BC242706DD8C00408725 /* AlertMessagesConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertMessagesConstant.swift; sourceTree = "<group>"; };
+		2A60BC2E2706DEBF00408725 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = "surgo-ios-1635/HelperClass/Constants.swift"; sourceTree = SOURCE_ROOT; };
+		2A60BC332706E0D100408725 /* EnterDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterDetailVC.swift; sourceTree = "<group>"; };
+		2A60BC342706E0D100408725 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		2A60BC352706E0D100408725 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		2A60BC3F2706E80500408725 /* Proxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
+		2A60BC402706E80500408725 /* RootControllerProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootControllerProxy.swift; sourceTree = "<group>"; };
+		2A6AA700271ECD1500DBBC01 /* PostsVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsVM.swift; sourceTree = "<group>"; };
+		2A6AA759271ED97F00DBBC01 /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		2AFAA7A5270437F40048B872 /* surgo-ios-1635.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "surgo-ios-1635.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFAA7A8270437F40048B872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AFAA7AA270437F40048B872 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2AFAA7AF270437F40048B872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AFAA7B1270437F40048B872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AFAA7B4270437F40048B872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AFAA7B6270437F40048B872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AFAA7BB270437F40048B872 /* surgo-ios-1635Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "surgo-ios-1635Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFAA7BF270437F40048B872 /* surgo_ios_1635Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surgo_ios_1635Tests.swift; sourceTree = "<group>"; };
+		2AFAA7C1270437F40048B872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AFAA7C6270437F40048B872 /* surgo-ios-1635UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "surgo-ios-1635UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFAA7CA270437F40048B872 /* surgo_ios_1635UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = surgo_ios_1635UITests.swift; sourceTree = "<group>"; };
+		2AFAA7CC270437F40048B872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60172AEB1DE76E99A69C1627 /* Pods-surgo-ios-1635-surgo-ios-1635UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-surgo-ios-1635-surgo-ios-1635UITests.release.xcconfig"; path = "Target Support Files/Pods-surgo-ios-1635-surgo-ios-1635UITests/Pods-surgo-ios-1635-surgo-ios-1635UITests.release.xcconfig"; sourceTree = "<group>"; };
+		733C85E3270D7EBB00E9211F /* ACFloatingTextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACFloatingTextfield.swift; sourceTree = "<group>"; };
+		73B70C3D2727D1A00071C163 /* TaskListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListTVC.swift; sourceTree = "<group>"; };
+		7B26A81F270FFFDE005338E3 /* FriendRequestTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendRequestTVC.xib; sourceTree = "<group>"; };
+		7B26A820270FFFDE005338E3 /* FriendRequestTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendRequestTVC.swift; sourceTree = "<group>"; };
+		7B26A82627100025005338E3 /* UserProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileVC.swift; sourceTree = "<group>"; };
+		7B26A82B271000E1005338E3 /* RequestListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestListVC.swift; sourceTree = "<group>"; };
+		7B26A830271007F6005338E3 /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+		7B26A83527101003005338E3 /* MainTBC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTBC.swift; sourceTree = "<group>"; };
+		7B26A84227101C65005338E3 /* SettingsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTVC.swift; sourceTree = "<group>"; };
+		7B26A84327101C65005338E3 /* SettingsTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsTVC.xib; sourceTree = "<group>"; };
+		7B26A84927102463005338E3 /* MyFriendsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendsVC.swift; sourceTree = "<group>"; };
+		7B26A84E271040FF005338E3 /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		7B33C419270EC2BB001CCD5B /* TrackProgressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackProgressVC.swift; sourceTree = "<group>"; };
+		7B33C41E270EC5C2001CCD5B /* PostsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsVC.swift; sourceTree = "<group>"; };
+		7B33C423270EC619001CCD5B /* PostTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTVC.swift; sourceTree = "<group>"; };
+		7B33C424270EC619001CCD5B /* PostTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTVC.xib; sourceTree = "<group>"; };
+		7B33C42A270ECE8C001CCD5B /* AddPostsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostsVC.swift; sourceTree = "<group>"; };
+		865CC0931D48BDF627DA86EF /* Pods-surgo-ios-1635Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-surgo-ios-1635Tests.debug.xcconfig"; path = "Target Support Files/Pods-surgo-ios-1635Tests/Pods-surgo-ios-1635Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA429E9D2716999600F5C1B0 /* UserProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileVM.swift; sourceTree = "<group>"; };
+		BA429E9F271699FE00F5C1B0 /* MyFriendTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendTVC.swift; sourceTree = "<group>"; };
+		BA429EA0271699FE00F5C1B0 /* MyFriendTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyFriendTVC.xib; sourceTree = "<group>"; };
+		BA429EA32717028700F5C1B0 /* RequestListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestListVM.swift; sourceTree = "<group>"; };
+		BA65036D2713FB6900A3CC9A /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		BA6503702714000C00A3CC9A /* GoalsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsCVC.swift; sourceTree = "<group>"; };
+		BA6503712714000C00A3CC9A /* GoalsCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GoalsCVC.xib; sourceTree = "<group>"; };
+		BA6503742714057400A3CC9A /* SetGoalsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGoalsVM.swift; sourceTree = "<group>"; };
+		BA65037627141C7600A3CC9A /* GoalsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsModel.swift; sourceTree = "<group>"; };
+		BA6503782714305E00A3CC9A /* SetPassionVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPassionVM.swift; sourceTree = "<group>"; };
+		BA65037A271433FC00A3CC9A /* SetSubPassionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetSubPassionVC.swift; sourceTree = "<group>"; };
+		BA65037C2714341300A3CC9A /* SetSubPassionVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetSubPassionVM.swift; sourceTree = "<group>"; };
+		BA65037E27143A0900A3CC9A /* CalenderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderVC.swift; sourceTree = "<group>"; };
+		BA6503822714629A00A3CC9A /* EditProfileVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVM.swift; sourceTree = "<group>"; };
+		BA6503842714752600A3CC9A /* ForgotPasswordVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVM.swift; sourceTree = "<group>"; };
+		BA650386271479AC00A3CC9A /* ChangePasswordVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVM.swift; sourceTree = "<group>"; };
+		BA6A26442717F82900016814 /* MyFriendsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFriendsVM.swift; sourceTree = "<group>"; };
+		BADC35732715BFA800BECBC7 /* SearchVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVM.swift; sourceTree = "<group>"; };
+		BADD328A2726F1DB0088E615 /* AddTaskVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskVM.swift; sourceTree = "<group>"; };
+		BADD328C2726F20D0088E615 /* AddSubTaskTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSubTaskTVC.swift; sourceTree = "<group>"; };
+		BADD328E2726F2400088E615 /* CalenderVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderVM.swift; sourceTree = "<group>"; };
+		BADD32902726F4EC0088E615 /* TaskListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListModel.swift; sourceTree = "<group>"; };
+		BAE12FCF270EF896007457EB /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		BAE12FD1270EFEA3007457EB /* SignUpVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVM.swift; sourceTree = "<group>"; };
+		BAE12FD3270EFF74007457EB /* RequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModel.swift; sourceTree = "<group>"; };
+		BAE12FD5270F0171007457EB /* ASToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASToast.swift; sourceTree = "<group>"; };
+		BAE12FD7270F066E007457EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BAE12FD9270F191D007457EB /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		BAE12FDB270F231D007457EB /* EnterDetailVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterDetailVM.swift; sourceTree = "<group>"; };
+		BAE12FDD270F26B1007457EB /* DataBaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseHelper.swift; sourceTree = "<group>"; };
+		BAE12FDF270F277E007457EB /* GalleryCameraImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCameraImage.swift; sourceTree = "<group>"; };
+		BAE12FE1270F316F007457EB /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		BAE12FE3270F318E007457EB /* SearchListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchListTVC.swift; sourceTree = "<group>"; };
+		BAE12FE4270F318E007457EB /* CategorySelectionMenuTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategorySelectionMenuTVC.swift; sourceTree = "<group>"; };
+		BAEAE4B92713F6B000FE0EF7 /* SetGoalsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetGoalsVC.swift; sourceTree = "<group>"; };
+		BAEAE4BA2713F6B000FE0EF7 /* SetPassionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetPassionVC.swift; sourceTree = "<group>"; };
+		C52FDC9402937C69E1FCDCF6 /* Pods_surgo_ios_1635.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_surgo_ios_1635.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1FD2F2FB9F839E9C0AB877 /* Pods_surgo_ios_1635Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_surgo_ios_1635Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F871EEA91C7A6C452F83DE0E /* Pods-surgo-ios-1635-surgo-ios-1635UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-surgo-ios-1635-surgo-ios-1635UITests.debug.xcconfig"; path = "Target Support Files/Pods-surgo-ios-1635-surgo-ios-1635UITests/Pods-surgo-ios-1635-surgo-ios-1635UITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AFAA7A2270437F40048B872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039AA381CE0A8F870198B44C /* Pods_surgo_ios_1635.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFAA7B8270437F40048B872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1993655865E22550BC04CCD /* Pods_surgo_ios_1635Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFAA7C3270437F40048B872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42830EE1C4B21E3C43A66290 /* Pods_surgo_ios_1635_surgo_ios_1635UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A19D3A53D25DA0DAD80BBBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				134B8F3936870D7F9E54D7AB /* Pods-surgo-ios-1635.debug.xcconfig */,
+				047D6084256A8204D1FD27FD /* Pods-surgo-ios-1635.release.xcconfig */,
+				F871EEA91C7A6C452F83DE0E /* Pods-surgo-ios-1635-surgo-ios-1635UITests.debug.xcconfig */,
+				60172AEB1DE76E99A69C1627 /* Pods-surgo-ios-1635-surgo-ios-1635UITests.release.xcconfig */,
+				865CC0931D48BDF627DA86EF /* Pods-surgo-ios-1635Tests.debug.xcconfig */,
+				214AEC82E19ED16D122F26D8 /* Pods-surgo-ios-1635Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2A244E3A2705EE6500954088 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BAEAE4B92713F6B000FE0EF7 /* SetGoalsVC.swift */,
+				BAEAE4BA2713F6B000FE0EF7 /* SetPassionVC.swift */,
+				BAE12FE1270F316F007457EB /* SearchVC.swift */,
+				2A33C32C270C603A004F602B /* ChangePasswordVC.swift */,
+				2A33C327270C5FB2004F602B /* CalenderEventVC.swift */,
+				2A33C30C270C3508004F602B /* ForgotPasswordVC.swift */,
+				2A60BC342706E0D100408725 /* LoginVC.swift */,
+				2A60BC332706E0D100408725 /* EnterDetailVC.swift */,
+				2A60BC352706E0D100408725 /* SignUpVC.swift */,
+				7B33C419270EC2BB001CCD5B /* TrackProgressVC.swift */,
+				7B33C41E270EC5C2001CCD5B /* PostsVC.swift */,
+				7B33C42A270ECE8C001CCD5B /* AddPostsVC.swift */,
+				BAE12FCF270EF896007457EB /* SplashVC.swift */,
+				7B26A82627100025005338E3 /* UserProfileVC.swift */,
+				7B26A82B271000E1005338E3 /* RequestListVC.swift */,
+				7B26A830271007F6005338E3 /* MyProfileVC.swift */,
+				7B26A83527101003005338E3 /* MainTBC.swift */,
+				7B26A84927102463005338E3 /* MyFriendsVC.swift */,
+				7B26A84E271040FF005338E3 /* EditProfileVC.swift */,
+				2A1DC8E42724468E00EE84CE /* AddTaskVC.swift */,
+				2A1DC8E52724468E00EE84CE /* EditTaskVC.swift */,
+				BA65037A271433FC00A3CC9A /* SetSubPassionVC.swift */,
+				BA65037E27143A0900A3CC9A /* CalenderVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2A244E3B2705EE7F00954088 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BADD328E2726F2400088E615 /* CalenderVM.swift */,
+				BADD328A2726F1DB0088E615 /* AddTaskVM.swift */,
+				BAE12FD1270EFEA3007457EB /* SignUpVM.swift */,
+				2A2B3E4D271D9F520024BE6B /* AddPostsVM.swift */,
+				BAE12FD9270F191D007457EB /* LoginVM.swift */,
+				BAE12FDB270F231D007457EB /* EnterDetailVM.swift */,
+				2A4710FC27267E8C009A54F9 /* EditTaskVM.swift */,
+				2A6AA700271ECD1500DBBC01 /* PostsVM.swift */,
+				BA65037C2714341300A3CC9A /* SetSubPassionVM.swift */,
+				BA6503782714305E00A3CC9A /* SetPassionVM.swift */,
+				BA6503822714629A00A3CC9A /* EditProfileVM.swift */,
+				BA6503842714752600A3CC9A /* ForgotPasswordVM.swift */,
+				BA650386271479AC00A3CC9A /* ChangePasswordVM.swift */,
+				BADC35732715BFA800BECBC7 /* SearchVM.swift */,
+				BA429E9D2716999600F5C1B0 /* UserProfileVM.swift */,
+				BA429EA32717028700F5C1B0 /* RequestListVM.swift */,
+				BA6A26442717F82900016814 /* MyFriendsVM.swift */,
+				2A45CC9B27204C3A00E8C6C1 /* MyProfileVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2A244E3C2705EEC200954088 /* HelperClass */ = {
+			isa = PBXGroup;
+			children = (
+				BAE12FDF270F277E007457EB /* GalleryCameraImage.swift */,
+				BAE12FD5270F0171007457EB /* ASToast.swift */,
+				2A60BC3F2706E80500408725 /* Proxy.swift */,
+				2A60BC402706E80500408725 /* RootControllerProxy.swift */,
+				2A244E4C2705F74B00954088 /* TextFieldEffects.swift */,
+				2A244E472705F66F00954088 /* HoshiTextField.swift */,
+				BAE12FD3270EFF74007457EB /* RequestModel.swift */,
+				BAE12FDD270F26B1007457EB /* DataBaseHelper.swift */,
+				BA6503742714057400A3CC9A /* SetGoalsVM.swift */,
+			);
+			path = HelperClass;
+			sourceTree = "<group>";
+		};
+		2A244E3D2705EEDC00954088 /* CellClass */ = {
+			isa = PBXGroup;
+			children = (
+				BA65036F2713FFEF00A3CC9A /* CVCClasses */,
+				2A244E3F2705EEFC00954088 /* TVCClasses */,
+			);
+			path = CellClass;
+			sourceTree = "<group>";
+		};
+		2A244E3F2705EEFC00954088 /* TVCClasses */ = {
+			isa = PBXGroup;
+			children = (
+				BADD328C2726F20D0088E615 /* AddSubTaskTVC.swift */,
+				7B26A820270FFFDE005338E3 /* FriendRequestTVC.swift */,
+				7B26A81F270FFFDE005338E3 /* FriendRequestTVC.xib */,
+				BAE12FE4270F318E007457EB /* CategorySelectionMenuTVC.swift */,
+				BAE12FE3270F318E007457EB /* SearchListTVC.swift */,
+				7B33C423270EC619001CCD5B /* PostTVC.swift */,
+				7B33C424270EC619001CCD5B /* PostTVC.xib */,
+				7B26A84227101C65005338E3 /* SettingsTVC.swift */,
+				7B26A84327101C65005338E3 /* SettingsTVC.xib */,
+				BA429E9F271699FE00F5C1B0 /* MyFriendTVC.swift */,
+				BA429EA0271699FE00F5C1B0 /* MyFriendTVC.xib */,
+				73B70C3D2727D1A00071C163 /* TaskListTVC.swift */,
+			);
+			path = TVCClasses;
+			sourceTree = "<group>";
+		};
+		2A60BC212706DD8C00408725 /* ExtensionClass */ = {
+			isa = PBXGroup;
+			children = (
+				2A60BC2E2706DEBF00408725 /* Constants.swift */,
+				2A60BC222706DD8C00408725 /* ViewExtenstions.swift */,
+				2A60BC232706DD8C00408725 /* Extensions.swift */,
+				2A60BC242706DD8C00408725 /* AlertMessagesConstant.swift */,
+			);
+			path = ExtensionClass;
+			sourceTree = "<group>";
+		};
+		2AFAA79C270437F40048B872 = {
+			isa = PBXGroup;
+			children = (
+				2AFAA7A7270437F40048B872 /* surgo-ios-1635 */,
+				2AFAA7BE270437F40048B872 /* surgo-ios-1635Tests */,
+				2AFAA7C9270437F40048B872 /* surgo-ios-1635UITests */,
+				2AFAA7A6270437F40048B872 /* Products */,
+				BE2E5E7A3C55EB364E422A3A /* Frameworks */,
+				2A19D3A53D25DA0DAD80BBBE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2AFAA7A6270437F40048B872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AFAA7A5270437F40048B872 /* surgo-ios-1635.app */,
+				2AFAA7BB270437F40048B872 /* surgo-ios-1635Tests.xctest */,
+				2AFAA7C6270437F40048B872 /* surgo-ios-1635UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AFAA7A7270437F40048B872 /* surgo-ios-1635 */ = {
+			isa = PBXGroup;
+			children = (
+				BAEAE4B62713F5A100FE0EF7 /* Model */,
+				BAE12FD7270F066E007457EB /* GoogleService-Info.plist */,
+				2A60BC212706DD8C00408725 /* ExtensionClass */,
+				2A244E3D2705EEDC00954088 /* CellClass */,
+				2A244E3C2705EEC200954088 /* HelperClass */,
+				2A244E3B2705EE7F00954088 /* ViewModel */,
+				2A244E3A2705EE6500954088 /* ViewController */,
+				2AFAA7A8270437F40048B872 /* AppDelegate.swift */,
+				733C85E3270D7EBB00E9211F /* ACFloatingTextfield.swift */,
+				2AFAA7AA270437F40048B872 /* SceneDelegate.swift */,
+				2AFAA7AE270437F40048B872 /* Main.storyboard */,
+				2AFAA7B1270437F40048B872 /* Assets.xcassets */,
+				2AFAA7B3270437F40048B872 /* LaunchScreen.storyboard */,
+				2AFAA7B6270437F40048B872 /* Info.plist */,
+			);
+			path = "surgo-ios-1635";
+			sourceTree = "<group>";
+		};
+		2AFAA7BE270437F40048B872 /* surgo-ios-1635Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2AFAA7BF270437F40048B872 /* surgo_ios_1635Tests.swift */,
+				2AFAA7C1270437F40048B872 /* Info.plist */,
+			);
+			path = "surgo-ios-1635Tests";
+			sourceTree = "<group>";
+		};
+		2AFAA7C9270437F40048B872 /* surgo-ios-1635UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AFAA7CA270437F40048B872 /* surgo_ios_1635UITests.swift */,
+				2AFAA7CC270437F40048B872 /* Info.plist */,
+			);
+			path = "surgo-ios-1635UITests";
+			sourceTree = "<group>";
+		};
+		BA65036F2713FFEF00A3CC9A /* CVCClasses */ = {
+			isa = PBXGroup;
+			children = (
+				BA6503702714000C00A3CC9A /* GoalsCVC.swift */,
+				BA6503712714000C00A3CC9A /* GoalsCVC.xib */,
+			);
+			path = CVCClasses;
+			sourceTree = "<group>";
+		};
+		BAEAE4B62713F5A100FE0EF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BADD32902726F4EC0088E615 /* TaskListModel.swift */,
+				BA65036D2713FB6900A3CC9A /* UserDetails.swift */,
+				2A6AA759271ED97F00DBBC01 /* PostModel.swift */,
+				BA65037627141C7600A3CC9A /* GoalsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE2E5E7A3C55EB364E422A3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C52FDC9402937C69E1FCDCF6 /* Pods_surgo_ios_1635.framework */,
+				05634AAD6837840828D857A5 /* Pods_surgo_ios_1635_surgo_ios_1635UITests.framework */,
+				EE1FD2F2FB9F839E9C0AB877 /* Pods_surgo_ios_1635Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AFAA7A4270437F40048B872 /* surgo-ios-1635 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AFAA7CF270437F40048B872 /* Build configuration list for PBXNativeTarget "surgo-ios-1635" */;
+			buildPhases = (
+				8D8A953F0BB2C8CA7A7C5B7A /* [CP] Check Pods Manifest.lock */,
+				2AFAA7A1270437F40048B872 /* Sources */,
+				2AFAA7A2270437F40048B872 /* Frameworks */,
+				2AFAA7A3270437F40048B872 /* Resources */,
+				B3102F3B253FDEAB028584FD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "surgo-ios-1635";
+			productName = "surgo-ios-1635";
+			productReference = 2AFAA7A5270437F40048B872 /* surgo-ios-1635.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AFAA7BA270437F40048B872 /* surgo-ios-1635Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AFAA7D2270437F40048B872 /* Build configuration list for PBXNativeTarget "surgo-ios-1635Tests" */;
+			buildPhases = (
+				89FF98760F34ECEC8534E3BD /* [CP] Check Pods Manifest.lock */,
+				2AFAA7B7270437F40048B872 /* Sources */,
+				2AFAA7B8270437F40048B872 /* Frameworks */,
+				2AFAA7B9270437F40048B872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AFAA7BD270437F40048B872 /* PBXTargetDependency */,
+			);
+			name = "surgo-ios-1635Tests";
+			productName = "surgo-ios-1635Tests";
+			productReference = 2AFAA7BB270437F40048B872 /* surgo-ios-1635Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AFAA7C5270437F40048B872 /* surgo-ios-1635UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AFAA7D5270437F40048B872 /* Build configuration list for PBXNativeTarget "surgo-ios-1635UITests" */;
+			buildPhases = (
+				C1077B09570CAF216DBF5449 /* [CP] Check Pods Manifest.lock */,
+				2AFAA7C2270437F40048B872 /* Sources */,
+				2AFAA7C3270437F40048B872 /* Frameworks */,
+				2AFAA7C4270437F40048B872 /* Resources */,
+				DE9386077ECC6661A7C0D1CF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AFAA7C8270437F40048B872 /* PBXTargetDependency */,
+			);
+			name = "surgo-ios-1635UITests";
+			productName = "surgo-ios-1635UITests";
+			productReference = 2AFAA7C6270437F40048B872 /* surgo-ios-1635UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AFAA79D270437F40048B872 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2AFAA7A4270437F40048B872 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2AFAA7BA270437F40048B872 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2AFAA7A4270437F40048B872;
+					};
+					2AFAA7C5270437F40048B872 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2AFAA7A4270437F40048B872;
+					};
+				};
+			};
+			buildConfigurationList = 2AFAA7A0270437F40048B872 /* Build configuration list for PBXProject "surgo-ios-1635" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AFAA79C270437F40048B872;
+			productRefGroup = 2AFAA7A6270437F40048B872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AFAA7A4270437F40048B872 /* surgo-ios-1635 */,
+				2AFAA7BA270437F40048B872 /* surgo-ios-1635Tests */,
+				2AFAA7C5270437F40048B872 /* surgo-ios-1635UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AFAA7A3270437F40048B872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFAA7B5270437F40048B872 /* LaunchScreen.storyboard in Resources */,
+				BA429EA2271699FE00F5C1B0 /* MyFriendTVC.xib in Resources */,
+				7B26A84527101C66005338E3 /* SettingsTVC.xib in Resources */,
+				2AFAA7B2270437F40048B872 /* Assets.xcassets in Resources */,
+				BAE12FD8270F066E007457EB /* GoogleService-Info.plist in Resources */,
+				7B26A821270FFFDF005338E3 /* FriendRequestTVC.xib in Resources */,
+				2AFAA7B0270437F40048B872 /* Main.storyboard in Resources */,
+				7B33C426270EC619001CCD5B /* PostTVC.xib in Resources */,
+				BA6503732714000C00A3CC9A /* GoalsCVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFAA7B9270437F40048B872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFAA7C4270437F40048B872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89FF98760F34ECEC8534E3BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-surgo-ios-1635Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D8A953F0BB2C8CA7A7C5B7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-surgo-ios-1635-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3102F3B253FDEAB028584FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-surgo-ios-1635/Pods-surgo-ios-1635-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-surgo-ios-1635/Pods-surgo-ios-1635-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-surgo-ios-1635/Pods-surgo-ios-1635-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1077B09570CAF216DBF5449 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-surgo-ios-1635-surgo-ios-1635UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE9386077ECC6661A7C0D1CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-surgo-ios-1635-surgo-ios-1635UITests/Pods-surgo-ios-1635-surgo-ios-1635UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-surgo-ios-1635-surgo-ios-1635UITests/Pods-surgo-ios-1635-surgo-ios-1635UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-surgo-ios-1635-surgo-ios-1635UITests/Pods-surgo-ios-1635-surgo-ios-1635UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AFAA7A1270437F40048B872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6503832714629A00A3CC9A /* EditProfileVM.swift in Sources */,
+				BADD328F2726F2400088E615 /* CalenderVM.swift in Sources */,
+				BAE12FDA270F191D007457EB /* LoginVM.swift in Sources */,
+				2A60BC372706E0D100408725 /* LoginVC.swift in Sources */,
+				BAE12FDC270F231D007457EB /* EnterDetailVM.swift in Sources */,
+				BAE12FE6270F318E007457EB /* CategorySelectionMenuTVC.swift in Sources */,
+				7B26A84F271040FF005338E3 /* EditProfileVC.swift in Sources */,
+				BA429EA1271699FE00F5C1B0 /* MyFriendTVC.swift in Sources */,
+				BA65037F27143A0900A3CC9A /* CalenderVC.swift in Sources */,
+				BAE12FE0270F277E007457EB /* GalleryCameraImage.swift in Sources */,
+				BADC35742715BFA800BECBC7 /* SearchVM.swift in Sources */,
+				2A6AA75A271ED98000DBBC01 /* PostModel.swift in Sources */,
+				BAE12FD6270F0172007457EB /* ASToast.swift in Sources */,
+				7B26A82C271000E1005338E3 /* RequestListVC.swift in Sources */,
+				BAE12FDE270F26B1007457EB /* DataBaseHelper.swift in Sources */,
+				7B26A831271007F6005338E3 /* MyProfileVC.swift in Sources */,
+				BA650387271479AC00A3CC9A /* ChangePasswordVM.swift in Sources */,
+				7B33C42B270ECE8C001CCD5B /* AddPostsVC.swift in Sources */,
+				7B26A822270FFFDF005338E3 /* FriendRequestTVC.swift in Sources */,
+				2A4710FD27267E8C009A54F9 /* EditTaskVM.swift in Sources */,
+				BA6A26452717F82A00016814 /* MyFriendsVM.swift in Sources */,
+				BA65037B271433FC00A3CC9A /* SetSubPassionVC.swift in Sources */,
+				2A60BC412706E80500408725 /* Proxy.swift in Sources */,
+				2A6AA701271ECD1900DBBC01 /* PostsVM.swift in Sources */,
+				2A60BC272706DD8C00408725 /* AlertMessagesConstant.swift in Sources */,
+				7B26A84A27102463005338E3 /* MyFriendsVC.swift in Sources */,
+				BA6503752714057400A3CC9A /* SetGoalsVM.swift in Sources */,
+				2A1DC8E72724468E00EE84CE /* EditTaskVC.swift in Sources */,
+				7B33C425270EC619001CCD5B /* PostTVC.swift in Sources */,
+				BADD32912726F4EC0088E615 /* TaskListModel.swift in Sources */,
+				BAE12FD0270EF896007457EB /* SplashVC.swift in Sources */,
+				7B33C41A270EC2BB001CCD5B /* TrackProgressVC.swift in Sources */,
+				7B33C41F270EC5C2001CCD5B /* PostsVC.swift in Sources */,
+				7B26A84427101C66005338E3 /* SettingsTVC.swift in Sources */,
+				2A33C32D270C603A004F602B /* ChangePasswordVC.swift in Sources */,
+				2A60BC362706E0D100408725 /* EnterDetailVC.swift in Sources */,
+				BAEAE4BC2713F6B000FE0EF7 /* SetPassionVC.swift in Sources */,
+				BA429E9E2716999600F5C1B0 /* UserProfileVM.swift in Sources */,
+				2A2B3E4E271D9F530024BE6B /* AddPostsVM.swift in Sources */,
+				2AFAA7A9270437F40048B872 /* AppDelegate.swift in Sources */,
+				BA65037727141C7700A3CC9A /* GoalsModel.swift in Sources */,
+				2A45CC9C27204C4800E8C6C1 /* MyProfileVM.swift in Sources */,
+				73B70C3E2727D1A00071C163 /* TaskListTVC.swift in Sources */,
+				BA6503722714000C00A3CC9A /* GoalsCVC.swift in Sources */,
+				2A60BC422706E80500408725 /* RootControllerProxy.swift in Sources */,
+				BAE12FD2270EFEA3007457EB /* SignUpVM.swift in Sources */,
+				BA429EA42717028800F5C1B0 /* RequestListVM.swift in Sources */,
+				BADD328B2726F1DC0088E615 /* AddTaskVM.swift in Sources */,
+				7B26A83627101003005338E3 /* MainTBC.swift in Sources */,
+				BAEAE4BB2713F6B000FE0EF7 /* SetGoalsVC.swift in Sources */,
+				2AFAA7AB270437F40048B872 /* SceneDelegate.swift in Sources */,
+				BAE12FD4270EFF74007457EB /* RequestModel.swift in Sources */,
+				BA6503792714305E00A3CC9A /* SetPassionVM.swift in Sources */,
+				BA65036E2713FB6900A3CC9A /* UserDetails.swift in Sources */,
+				7B26A82727100025005338E3 /* UserProfileVC.swift in Sources */,
+				2A244E482705F66F00954088 /* HoshiTextField.swift in Sources */,
+				733C85E4270D7EBC00E9211F /* ACFloatingTextfield.swift in Sources */,
+				2A33C328270C5FB2004F602B /* CalenderEventVC.swift in Sources */,
+				BA6503852714752600A3CC9A /* ForgotPasswordVM.swift in Sources */,
+				BA65037D2714341300A3CC9A /* SetSubPassionVM.swift in Sources */,
+				BAE12FE2270F316F007457EB /* SearchVC.swift in Sources */,
+				2A244E4D2705F74B00954088 /* TextFieldEffects.swift in Sources */,
+				2A60BC252706DD8C00408725 /* ViewExtenstions.swift in Sources */,
+				2A60BC382706E0D100408725 /* SignUpVC.swift in Sources */,
+				2A60BC262706DD8C00408725 /* Extensions.swift in Sources */,
+				2A60BC2F2706DEBF00408725 /* Constants.swift in Sources */,
+				2A33C30D270C3508004F602B /* ForgotPasswordVC.swift in Sources */,
+				2A1DC8E62724468E00EE84CE /* AddTaskVC.swift in Sources */,
+				BADD328D2726F20D0088E615 /* AddSubTaskTVC.swift in Sources */,
+				BAE12FE5270F318E007457EB /* SearchListTVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFAA7B7270437F40048B872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFAA7C0270437F40048B872 /* surgo_ios_1635Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AFAA7C2270437F40048B872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFAA7CB270437F40048B872 /* surgo_ios_1635UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AFAA7BD270437F40048B872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AFAA7A4270437F40048B872 /* surgo-ios-1635 */;
+			targetProxy = 2AFAA7BC270437F40048B872 /* PBXContainerItemProxy */;
+		};
+		2AFAA7C8270437F40048B872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AFAA7A4270437F40048B872 /* surgo-ios-1635 */;
+			targetProxy = 2AFAA7C7270437F40048B872 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AFAA7AE270437F40048B872 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AFAA7AF270437F40048B872 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AFAA7B3270437F40048B872 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AFAA7B4270437F40048B872 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AFAA7CD270437F40048B872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AFAA7CE270437F40048B872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AFAA7D0270437F40048B872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 134B8F3936870D7F9E54D7AB /* Pods-surgo-ios-1635.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4P3YH94773;
+				INFOPLIST_FILE = "surgo-ios-1635/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AryamanGoenka.SurgoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = SurgoDev;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2AFAA7D1270437F40048B872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 047D6084256A8204D1FD27FD /* Pods-surgo-ios-1635.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 4P3YH94773;
+				INFOPLIST_FILE = "surgo-ios-1635/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AryamanGoenka.SurgoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = SurgoProdProv;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2AFAA7D3270437F40048B872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 865CC0931D48BDF627DA86EF /* Pods-surgo-ios-1635Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "surgo-ios-1635Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "surgo-ios.surgo-ios-1635Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/surgo-ios-1635.app/surgo-ios-1635";
+			};
+			name = Debug;
+		};
+		2AFAA7D4270437F40048B872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 214AEC82E19ED16D122F26D8 /* Pods-surgo-ios-1635Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "surgo-ios-1635Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "surgo-ios.surgo-ios-1635Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/surgo-ios-1635.app/surgo-ios-1635";
+			};
+			name = Release;
+		};
+		2AFAA7D6270437F40048B872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F871EEA91C7A6C452F83DE0E /* Pods-surgo-ios-1635-surgo-ios-1635UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "surgo-ios-1635UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "surgo-ios.surgo-ios-1635UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "surgo-ios-1635";
+			};
+			name = Debug;
+		};
+		2AFAA7D7270437F40048B872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60172AEB1DE76E99A69C1627 /* Pods-surgo-ios-1635-surgo-ios-1635UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "surgo-ios-1635UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "surgo-ios.surgo-ios-1635UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "surgo-ios-1635";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AFAA7A0270437F40048B872 /* Build configuration list for PBXProject "surgo-ios-1635" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFAA7CD270437F40048B872 /* Debug */,
+				2AFAA7CE270437F40048B872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AFAA7CF270437F40048B872 /* Build configuration list for PBXNativeTarget "surgo-ios-1635" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFAA7D0270437F40048B872 /* Debug */,
+				2AFAA7D1270437F40048B872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AFAA7D2270437F40048B872 /* Build configuration list for PBXNativeTarget "surgo-ios-1635Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFAA7D3270437F40048B872 /* Debug */,
+				2AFAA7D4270437F40048B872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AFAA7D5270437F40048B872 /* Build configuration list for PBXNativeTarget "surgo-ios-1635UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFAA7D6270437F40048B872 /* Debug */,
+				2AFAA7D7270437F40048B872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AFAA79D270437F40048B872 /* Project object */;
+}
